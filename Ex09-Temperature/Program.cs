@@ -10,7 +10,7 @@ namespace Ex09_Temperature
 	{
 		static void Main(string[] args)
 		{
-			System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\mikke\Dropbox\Docs\School\EAL\#Programmering\C#\Ex09-Temperature\Ex09-Temperature\InputFil.txt");
+			System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\chocobams\Source\Repos\Ex09-Temperature\Ex09-Temperature\InputFil.txt");
 			string line = file.ReadToEnd();
 			if (line != null)
 			{
